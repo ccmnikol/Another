@@ -29,7 +29,7 @@ $$(".HeaderMenu-link").get(2).shouldHave(text("Solution")).hover();
     @Test
     void tryingUseDragAndDrop (){
         // (опциональное) Запрограммируйте Drag&Drop с помощью Selenide.actions()
-        // Откройте https://the-internet.herokuapp.com/drag_and_drop
+        // Откройте https://the-internet.herokuapp.com/drag_and_drop/
         open("https://the-internet.herokuapp.com/drag_and_drop");
         sleep(3000);
         // Перенесите прямоугольник А на место В
