@@ -5,9 +5,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Tag("simple")
 public class SimpleTests {
-
-    @Tag("simple")
 
     @Test
     void simpleTestForCheckAllureAndJenkinsIntegration1() {
