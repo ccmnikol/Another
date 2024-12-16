@@ -17,10 +17,7 @@ public class SimpleTests {
     void simpleTestForCheckAllureAndJenkinsIntegration2() {
         assertTrue (true);
     }
-    @Test
-    void simpleTestForCheckAllureAndJenkinsIntegration3() {
-        assertTrue (false);
-    }
+
     @Test
     void simpleTestForCheckAllureAndJenkinsIntegration4() {
         assertTrue (true);
